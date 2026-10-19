@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 1</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script defer src="js\index.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Parcial 1 131</h1>
+    </header>
+
+    <main> 
+        <h2 id="titulo-user" style="cursor: pointer;">Users</h2>
+
+        <section class ="controls-section">
+            <div class="filters"
+                <label>
+                    <input type="radio" name="status" checked> Active
+                </label>
+                 <label>
+                    <input type="radio" name="status"> Inactive
+                </label>
+                 <label>
+                    <input type="radio" name="status"> All
+                </label>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search Users">
+            </div>
+        </section>
+
+        <section class="action-buttons">
+            <button class="btn btn-primary">CREATE</button>
+            <button class="btn" disabled>DESACTIVATE</button>
+            <button class="btn" disabled>RESET PASSWORD</button>
+        </section>
+
+        <hr class="divider">
+        <div id="users-container"></div>
+    </main>
+
+    <footer>
+        <p>Augusto Carrascal</p>
+    </footer>
+
+    <script src="js\index.js"></script>
+    
+</body>
+</html>
